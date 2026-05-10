@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #0B0D10;
+  --color-electric: #40E0FF;
+  --color-orange: #FF8C00;
+  --color-cloud: #F0EEE9;
+}
+
+:root {
+  --background: var(--color-charcoal);
+  --foreground: var(--color-cloud);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Glitch Effect */
+.glitch {
+  position: relative;
+  display: inline-block;
+}
+
+.glitch::before, .glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch::before {
+  left: 2px;
+  text-shadow: -2px 0 var(--color-electric);
+  animation: glitch-anim 3s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  left: -2px;
+  text-shadow: -2px 0 var(--color-orange);
+  animation: glitch-anim-2 2.5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+  0% { clip-path: inset(15% 0 83% 0); }
+  20% { clip-path: inset(61% 0 19% 0); }
+  40% { clip-path: inset(10% 0 88% 0); }
+  60% { clip-path: inset(88% 0 12% 0); }
+  80% { clip-path: inset(3% 0 94% 0); }
+  100% { clip-path: inset(51% 0 3% 0); }
+}
+
+@keyframes glitch-anim-2 {
+  0% { clip-path: inset(4% 0 32% 0); }
+  20% { clip-path: inset(21% 0 54% 0); }
+  40% { clip-path: inset(50% 0 16% 0); }
+  60% { clip-path: inset(38% 0 11% 0); }
+  80% { clip-path: inset(69% 0 7% 0); }
+  100% { clip-path: inset(85% 0 2% 0); }
+}
+
+/* Monaco line highlight */
+.monaco-line-highlight {
+  background-color: var(--color-orange) !important;
+  opacity: 0.4 !important;
+}

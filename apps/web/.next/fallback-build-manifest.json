@@ -1,0 +1,13 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/Efst-xX_-CH-iGfBkkNC2/_buildManifest.js",
+    "static/Efst-xX_-CH-iGfBkkNC2/_ssgManifest.js",
+    "static/Efst-xX_-CH-iGfBkkNC2/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": []
+}

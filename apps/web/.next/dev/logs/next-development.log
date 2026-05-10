@@ -1,0 +1,4 @@
+{"timestamp":"00:00:00.706","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:23.935","source":"Browser","level":"ERROR","message":"unhandledRejection: {\"type\":\"cancelation\",\"msg\":\"operation is manually canceled\"}"}
+{"timestamp":"00:00:23.940","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31m\\\"⨯ unhandledRejection:\\\"\\u001b[39m\" \"{ msg: \\u001b[32m'operation is manually canceled'\\u001b[39m, type: \\u001b[32m'cancelation'\\u001b[39m }\" \"\\n\\u001b[31m\\u001b[39m\""}
+{"timestamp":"00:00:23.941","source":"Browser","level":"ERROR","message":"\u001b[31m\"⨯ unhandledRejection:\"\u001b[39m {} \"\\n\\u001b[31m\\u001b[39m\""}

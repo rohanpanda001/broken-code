@@ -1,0 +1,59 @@
+[
+  {
+    "route": "/",
+    "firstLoadUncompressedJsBytes": 642102,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/1513ibnpmlx36.js",
+      ".next/static/chunks/0n~v8~rri7~t2.js",
+      ".next/static/chunks/0wn-evy6y8ub6.js",
+      ".next/static/chunks/0ng4kis6quudk.js",
+      ".next/static/chunks/0duq2w.~.g~i0.js",
+      ".next/static/chunks/00awhcvun08fm.js",
+      ".next/static/chunks/0rliqmdz-itj..js",
+      ".next/static/chunks/0-jknoljz7cth.js",
+      ".next/static/chunks/turbopack-0.x0dna9r~_lk.js"
+    ]
+  },
+  {
+    "route": "/dashboard",
+    "firstLoadUncompressedJsBytes": 639625,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/1513ibnpmlx36.js",
+      ".next/static/chunks/0n~v8~rri7~t2.js",
+      ".next/static/chunks/0hpsfqqm6xaq3.js",
+      ".next/static/chunks/0ng4kis6quudk.js",
+      ".next/static/chunks/0duq2w.~.g~i0.js",
+      ".next/static/chunks/00awhcvun08fm.js",
+      ".next/static/chunks/0rliqmdz-itj..js",
+      ".next/static/chunks/0-jknoljz7cth.js",
+      ".next/static/chunks/turbopack-0.x0dna9r~_lk.js"
+    ]
+  },
+  {
+    "route": "/practice",
+    "firstLoadUncompressedJsBytes": 531869,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/1513ibnpmlx36.js",
+      ".next/static/chunks/0n~v8~rri7~t2.js",
+      ".next/static/chunks/13bowh2g93.91.js",
+      ".next/static/chunks/0duq2w.~.g~i0.js",
+      ".next/static/chunks/00awhcvun08fm.js",
+      ".next/static/chunks/0rliqmdz-itj..js",
+      ".next/static/chunks/0-jknoljz7cth.js",
+      ".next/static/chunks/turbopack-0.x0dna9r~_lk.js"
+    ]
+  },
+  {
+    "route": "/_not-found",
+    "firstLoadUncompressedJsBytes": 514768,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/1513ibnpmlx36.js",
+      ".next/static/chunks/0n~v8~rri7~t2.js",
+      ".next/static/chunks/0duq2w.~.g~i0.js",
+      ".next/static/chunks/00awhcvun08fm.js",
+      ".next/static/chunks/0rliqmdz-itj..js",
+      ".next/static/chunks/0-jknoljz7cth.js",
+      ".next/static/chunks/turbopack-0.x0dna9r~_lk.js"
+    ]
+  }
+]

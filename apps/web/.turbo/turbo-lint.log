@@ -1,0 +1,11 @@
+
+
+> @brokencode/web@0.1.0 lint /Users/rohanpanda/projects/broken-code/apps/web
+> eslint
+
+
+/Users/rohanpanda/projects/broken-code/apps/web/src/app/(candidate)/practice/EditorPane.tsx
+  34:46  warning  'monacoInstance' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 1 problem (0 errors, 1 warning)
+

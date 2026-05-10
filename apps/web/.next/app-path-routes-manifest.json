@@ -1,0 +1,8 @@
+{
+  "/(candidate)/practice/page": "/practice",
+  "/(company)/dashboard/page": "/dashboard",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}
