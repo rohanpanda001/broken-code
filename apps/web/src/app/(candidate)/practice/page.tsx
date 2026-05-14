@@ -9,7 +9,7 @@ export default function PracticePage() {
   const [isArchitectureIssue, setIsArchitectureIssue] = useState(false);
 
   return (
-    <div className="flex flex-col lg:flex-row h-screen bg-charcoal text-cloud overflow-hidden">
+    <div className="flex flex-col lg:flex-row flex-1 bg-charcoal text-cloud overflow-hidden">
       <div className="flex-grow flex flex-col h-[60vh] lg:h-full relative border-b lg:border-b-0 lg:border-r border-cloud/10">
         {/* Header for Editor */}
         <div className="h-14 border-b border-cloud/10 flex items-center px-6 bg-charcoal">

@@ -1,8 +1,12 @@
 {
+  "/(auth)/candidate/login/page": "/candidate/login",
+  "/(auth)/company/login/page": "/company/login",
+  "/(auth)/company/signup/page": "/company/signup",
   "/(candidate)/practice/page": "/practice",
   "/(company)/dashboard/page": "/dashboard",
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/auth/callback/route": "/auth/callback",
   "/favicon.ico/route": "/favicon.ico",
   "/page": "/"
 }

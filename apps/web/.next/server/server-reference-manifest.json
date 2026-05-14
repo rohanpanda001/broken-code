@@ -1,5 +1,30 @@
 {
-  "node": {},
+  "node": {
+    "6002fc3760a93b546bfc5cc1d4db780850481c3558": {
+      "workers": {
+        "app/(auth)/company/login/page": {
+          "moduleId": 42156,
+          "async": false,
+          "exportedName": "loginCompany",
+          "filename": "apps/web/src/lib/auth-actions.ts"
+        }
+      },
+      "filename": "apps/web/src/lib/auth-actions.ts",
+      "exportedName": "loginCompany"
+    },
+    "608523104382e63c76f16c2668d6eb7dde8cbcddb9": {
+      "workers": {
+        "app/(auth)/company/signup/page": {
+          "moduleId": 66428,
+          "async": false,
+          "exportedName": "signupCompany",
+          "filename": "apps/web/src/lib/auth-actions.ts"
+        }
+      },
+      "filename": "apps/web/src/lib/auth-actions.ts",
+      "exportedName": "signupCompany"
+    }
+  },
   "edge": {},
   "encryptionKey": "pT+oc3djW2133tyL42xqU3IqxKamRJa3a8bfJ5CtgJw="
 }

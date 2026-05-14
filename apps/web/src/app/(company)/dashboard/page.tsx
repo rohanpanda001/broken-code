@@ -12,7 +12,7 @@ const MOCK_CANDIDATES = [
 
 export default function CompanyDashboard() {
   return (
-    <div className="min-h-screen bg-charcoal text-cloud p-8">
+    <div className="flex-1 bg-charcoal text-cloud p-8">
       <div className="max-w-7xl mx-auto">
         <header className="mb-10 flex justify-between items-end border-b border-cloud/10 pb-6">
           <div>

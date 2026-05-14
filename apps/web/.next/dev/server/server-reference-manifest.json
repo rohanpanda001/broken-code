@@ -1,5 +1,30 @@
 {
-  "node": {},
+  "node": {
+    "6001c9bc5e40d4d3cf16296075248d057a9e4754ab": {
+      "workers": {
+        "app/(auth)/company/login/page": {
+          "moduleId": "[project]/apps/web/.next-internal/server/app/(auth)/company/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/web/src/lib/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "loginCompany",
+          "filename": "apps/web/src/lib/auth-actions.ts"
+        }
+      },
+      "filename": "apps/web/src/lib/auth-actions.ts",
+      "exportedName": "loginCompany"
+    },
+    "6085bd471def43959a74613b6f37980ea7f14daf20": {
+      "workers": {
+        "app/(auth)/company/signup/page": {
+          "moduleId": "[project]/apps/web/.next-internal/server/app/(auth)/company/signup/page/actions.js { ACTIONS_MODULE0 => \"[project]/apps/web/src/lib/auth-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "signupCompany",
+          "filename": "apps/web/src/lib/auth-actions.ts"
+        }
+      },
+      "filename": "apps/web/src/lib/auth-actions.ts",
+      "exportedName": "signupCompany"
+    }
+  },
   "edge": {},
   "encryptionKey": "TD+3PI3W1YSBsB5LdD/5PDYLUka4RjnmF4QL1RLaWMQ="
 }

@@ -42,6 +42,30 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/auth/callback",
+      "regex": "^/auth/callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/callback(?:/)?$"
+    },
+    {
+      "page": "/candidate/login",
+      "regex": "^/candidate/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/candidate/login(?:/)?$"
+    },
+    {
+      "page": "/company/login",
+      "regex": "^/company/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/company/login(?:/)?$"
+    },
+    {
+      "page": "/company/signup",
+      "regex": "^/company/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/company/signup(?:/)?$"
+    },
+    {
       "page": "/dashboard",
       "regex": "^/dashboard(?:/)?$",
       "routeKeys": {},
